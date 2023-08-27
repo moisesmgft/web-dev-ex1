@@ -52,11 +52,38 @@
     cursor: pointer;
   }
   
-  
   @media (max-width: 1024px) {
     .home-container {
-      grid-template-columns: repeat(1, 1fr); 
+      grid-template-columns: repeat(1, 1fr);
       gap: 10px;
+    }
+  
+    .route-card {
+      width: 55vh;
+      height: auto;
+    }
+
+    .route-card img {
+      max-height: 40%;
+      width: auto;
+      margin: 10px 0;
+      object-fit: contain;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .home-container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+  
+    .route-card {
+      width: 90%;
+      height: auto; 
+    }
+  
+    .route-card img {
+      display: none;
     }
   }
   
