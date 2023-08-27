@@ -1,0 +1,20 @@
+.horario-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .horario-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .horario-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .horario-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

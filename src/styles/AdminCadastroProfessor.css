@@ -1,0 +1,32 @@
+.admin-cadastro-professor {
+    padding: 20px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    width: 120px;
+    display: inline-block;
+  }
+  
+  .form-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #3e2769;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #6b3ca6;
+  }
+  
