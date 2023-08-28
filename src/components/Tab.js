@@ -12,7 +12,7 @@ function Tab({ tabs }) {
   };
 
   const handleBackToHome = () => {
-    navigate('/');
+    navigate('/web-dev-ex1');
   };
 
   return (
